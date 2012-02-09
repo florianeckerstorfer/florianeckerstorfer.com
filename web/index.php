@@ -45,7 +45,12 @@ header('Content-Type: text/html; charset=utf-8');
 <div id="social" class="container">
 	<div class="row">
 		<div class="span8">
-			<p><small>I am registered at numerous Social Networks, including <a href="http://twitter.com/Florian_">Twitter</a>, <a href="http://facebook.com/FlorianEckerstorfer">Facebook</a>, <a href="http://statigr.am/florian_">Instagram</a>, <a href="http://flickr.com/photos/florianeckerstorfer">Flickr</a>, <a href="http://last.fm/user/feredir">Last.fm</a>, <a href="http://gomiso.com/u/florian--2">Miso</a> and <a href="https://github.com/florianeckerstorfer">Github</a>.</small></p></div>
+			<p><small>I am registered at numerous Social Networks, including <a href="http://twitter.com/Florian_">Twitter</a>, <a href="http://facebook.com/FlorianEckerstorfer">Facebook</a>, <a href="http://statigr.am/florian_">Instagram</a>, <a href="http://flickr.com/photos/florianeckerstorfer">Flickr</a>, <a href="http://last.fm/user/feredir">Last.fm</a>, <a href="http://gomiso.com/u/florian--2">Miso</a> and <a href="https://github.com/florianeckerstorfer">Github</a>.</small></p>
+			<p><small>You can also send me an <a href="mailto:florian@theroadtojoy.at">email</a>.</small></p>
+		</div>
+		<div class="span4">
+			
+		</div>
 	</div>
 </div>
 
