@@ -45,7 +45,14 @@ header('Content-Type: text/html; charset=utf-8');
 <div id="social" class="container">
 	<div class="row">
 		<div class="span8">
-			<p><small>I am registered at numerous Social Networks, including <a href="http://twitter.com/Florian_">Twitter</a>, <a href="http://facebook.com/FlorianEckerstorfer">Facebook</a>, <a href="http://statigr.am/florian_">Instagram</a>, <a href="http://flickr.com/photos/florianeckerstorfer">Flickr</a>, <a href="http://last.fm/user/feredir">Last.fm</a>, <a href="http://gomiso.com/u/florian--2">Miso</a> and <a href="https://github.com/florianeckerstorfer">Github</a>.</small></p>
+			<p><small>I am registered at numerous Social Networks, including
+				<a href="http://twitter.com/Florian_" id="twitter">Twitter</a>,
+				<a href="http://facebook.com/FlorianEckerstorfer">Facebook</a>,
+				<a href="http://statigr.am/florian_" id="instagram">Instagram</a>, 
+				<a href="http://flickr.com/photos/florianeckerstorfer">Flickr</a>,
+				<a href="http://last.fm/user/feredir" id="lastfm">Last.fm</a>,
+				<a href="http://gomiso.com/u/florian--2" id="miso">Miso</a> and 
+				<a href="https://github.com/florianeckerstorfer">Github</a>.</small></p>
 			<p><small>You can also send me an <a href="mailto:florian@theroadtojoy.at">email</a>.</small></p>
 		</div>
 		<div class="span4">
@@ -57,13 +64,18 @@ header('Content-Type: text/html; charset=utf-8');
 <div id="share" class="container">
 	<div class="row">
 		<div class="span8">
-			<div class="fb-like" data-href="http://florianeckerstorfer.com" data-send="true" data-width="450" data-show-faces="true"></div>&nbsp;
+			<div class="fb-like" data-href="http://florianeckerstorfer.com" data-send="true" data-width="620" data-show-faces="true"></div>&nbsp;
 		</div>
 		<div class="social-button span4">
 			<a href="https://twitter.com/Florian" class="twitter-follow-button" data-show-count="false" data-width="109px">Follow @Florian_</a>
 		</div>
 	</div>
 </div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+
+<script src="/js/min/script-ck.js"></script>
 
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 

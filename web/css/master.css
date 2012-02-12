@@ -97,6 +97,18 @@ q:before,q:after,blockquote:before,blockquote:after{content:"";}
 address{display:block;margin-bottom:1.5em;line-height:1.5em;font-style:normal;}
 small{font-size:100%;}
 cite{font-style:normal;}
+.popover{position:absolute;top:0;left:0;z-index:1010;display:none;padding:5px;}.popover.top{margin-top:-5px;}
+.popover.right{margin-left:5px;}
+.popover.bottom{margin-top:5px;}
+.popover.left{margin-left:-5px;}
+.popover.top .arrow{bottom:0;left:50%;margin-left:-5px;border-left:5px solid transparent;border-right:5px solid transparent;border-top:5px solid #000000;}
+.popover.right .arrow{top:50%;left:0;margin-top:-5px;border-top:5px solid transparent;border-bottom:5px solid transparent;border-right:5px solid #000000;}
+.popover.bottom .arrow{top:0;left:50%;margin-left:-5px;border-left:5px solid transparent;border-right:5px solid transparent;border-bottom:5px solid #000000;}
+.popover.left .arrow{top:50%;right:0;margin-top:-5px;border-top:5px solid transparent;border-bottom:5px solid transparent;border-left:5px solid #000000;}
+.popover .arrow{position:absolute;width:0;height:0;}
+.popover-inner{padding:3px;width:280px;overflow:hidden;background:#000000;background:rgba(0, 0, 0, 0.8);-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px;-webkit-box-shadow:0 3px 7px rgba(0, 0, 0, 0.3);-moz-box-shadow:0 3px 7px rgba(0, 0, 0, 0.3);box-shadow:0 3px 7px rgba(0, 0, 0, 0.3);}
+.popover-title{padding:9px 15px;line-height:1;background-color:#f5f5f5;border-bottom:1px solid #eee;-webkit-border-radius:3px 3px 0 0;-moz-border-radius:3px 3px 0 0;border-radius:3px 3px 0 0;}
+.popover-content{padding:14px;background-color:#ffffff;-webkit-border-radius:0 0 3px 3px;-moz-border-radius:0 0 3px 3px;border-radius:0 0 3px 3px;-webkit-background-clip:padding-box;-moz-background-clip:padding-box;background-clip:padding-box;}.popover-content p,.popover-content ul,.popover-content ol{margin-bottom:0;}
 body{background:url(/img/pinstripe.png);font-size:1em;}
 #header{margin-bottom:3em;padding-top:6em;}#header h1{color:#999;font-size:4em;line-height:100%;}#header h1 strong{color:#333;text-transform:uppercase;}
 #header aside{width:300px;height:300px;margin-top:-54px;}#header aside img{-webkit-border-radius:185px;}
