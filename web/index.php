@@ -13,14 +13,15 @@
 <div id="social" class="container">
 	<div class="row">
 		<div class="span8">
-			<p><small>I am registered at numerous Social Networks, including
-				<a href="http://twitter.com/Florian_" id="twitter">Twitter</a>,
-				<a href="http://facebook.com/FlorianEckerstorfer">Facebook</a>,
-				<a href="http://statigr.am/florian_" id="instagram">Instagram</a>, 
-				<a href="http://flickr.com/photos/florianeckerstorfer">Flickr</a>,
-				<a href="http://last.fm/user/feredir" id="lastfm">Last.fm</a>,
-				<a href="http://gomiso.com/u/florian--2" id="miso">Miso</a> and 
-				<a href="https://github.com/florianeckerstorfer">Github</a>.</small></p>
+			<p><small>I am registered at numerous social networks and web services, including
+				<a href="http://fleckr.at/twitter" id="twitter">Twitter</a>,
+				<a href="http://fleckr.at/facebook">Facebook</a>,
+				<a href="http://fleckr.at/instagram" id="instagram">Instagram</a>, 
+				<a href="http://fleckr.at/flickr">Flickr</a>,
+				<a href="http://fleckr.at/lastfm" id="lastfm">Last.fm</a>,
+				<a href="http://fleckr.at/miso" id="miso">Miso</a>, 
+				<a href="http://fleckr.at/github">Github</a> and 
+				<a href="http://fleckr.at/pinboard">Pinboard</a>.</small></p>
 			<p><small>You can also send me an <a href="mailto:florian@theroadtojoy.at">email</a>.</small></p>
 		</div>
 		<div class="span4">
