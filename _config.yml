@@ -1,0 +1,2 @@
+exclude: [oauth, x-old-ajax-scripts, florianeckerstorfer.com.sublime-project, florianeckerstorfer.com.sublime-workspace, READM.md, less]
+auto: true
