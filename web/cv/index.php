@@ -3,13 +3,22 @@
 <div id="content" class="container">
 	<div class="row">
 		<div class="span8">
-			<h2>Education</h2>
 
-			<ul>
-				<li><em>Master of Science</em>, <strong>Software Engineering &amp; Internet Computing</strong><br>
-					Vienna University of Technlogoy, Vienna, AT, since October 2011</li>
-				<li><em>Curriculum Supplement</em>, <strong>Innovation</strong><br>
-					Vienna Univeristy of Technlogy, Vienna, AT, since March 2012</li>
+			<h2>Curriculum vitae</h2>
+
+			<p>A short text about Florian can be found on the <a href="/bio">bio</a> page.</p>
+
+			<h3>Education</h3>
+
+			<ul class="cv-list">
+				<li>
+					<em>Curriculum Supplement</em>, <strong>Innovation</strong><br>
+					Vienna Univeristy of Technlogy, Vienna, AT, since March 2012
+				</li>
+				 <li>
+				 	<em>Master of Science</em>, <strong>Software Engineering &amp; Internet Computing</strong><br>
+					Vienna University of Technlogoy, Vienna, AT, since October 2011
+				</li>
 				<li>
 					<em>Bachelor of Science</em>, <strong>Software &amp; Information Engineering</strong><br>
 					Vienna University of Technology, Vienna, AT, September 2011
@@ -18,22 +27,25 @@
 					Schulzentrum der Kreuzschwestenr, Linz, June 2006</li>
 			</ul>
 
-			<h2>Experience</h2>
-			<ul>
-				<li><em>Web Developer</em>, <strong>2bePUBLISHED Internet Services Austria GmbH</strong>, Vienna, AT, since June 2009
+			<h3>Experience</h3>
+			<ul class="cv-list">
+				<li>
+					<em>Web Developer</em>, <strong>2bePUBLISHED Internet Services Austria GmbH</strong>, Vienna, AT, since June 2009
 					<ul>
 						<li>Frontend Development (HTML, CSS, JavaScript)</li>
 						<li>Web Development with PHP and Symfony</li>
 						<li>Web Data Extraction</li>
 					</ul>
 				</li>
-				<li><em>Web Developer</em>, <strong>2beFOUND Performance Marketing GmbH</strong>, Vienna, AT, August 2008 - May 2009
+				<li>
+					<em>Web Developer</em>, <strong>2beFOUND Performance Marketing GmbH</strong>, Vienna, AT, August 2008 - May 2009
 					<ul>
 						<li>Frontend Development (HTML, CSS, JavaScript)</li>
 						<li>Web Development with PHP and Symfony</li>
 					</ul>
 				</li>
-				<li><em>Freelancer</em>, January 2002 - May 2009
+				<li>
+					<em>Freelancer</em>, January 2002 - May 2009
 					<ul>
 						<li>Frontend Development</li>
 						<li>Web Development</li>
@@ -67,9 +79,9 @@
 				</li>
 			</ul>
 
-			<h2>Open Source Projects</h2>
+			<h3>Open Source Projects</h3>
 
-			<ul>
+			<ul class="cv-list">
 				<li>
 					<a href="http://banchaproject.org"><strong>Bancha</strong></a><br>
 					A bridge between the CakePHP and Ext JS 4 framework developed in a team with four other students.
@@ -80,14 +92,18 @@
 				</li>
 			</ul>
 
-			<h2>Private Projects</h2>
+			<h3>Private Projects</h3>
 
-			<p>I am working on a wide variety of private projects since 1999. A selection of recent work is presented on <a href="http://trtj.org">http://trtj.org</a>.</p>
+			<ul class="cv-list">
+				<li>I am working on a wide variety of private projects since 1999. A selection of recent work is presented on <a href="http://trtj.org">http://trtj.org</a>.</li>
+			</ul>
 
-			<h2>Languages</h2>
+			<h3>Languages</h3>
 			
-			<ul>
-				<li><strong>German</strong><br>mother tongue</li>
+			<ul class="cv-list">
+				<li>
+					<strong>German</strong><br>mother tongue
+				</li>
 				<li>
 					<strong>English</strong><br>
 					Excellent reading and very good writing and speaking skills.
@@ -96,6 +112,21 @@
 					<strong>Spanish</strong><br>
 					Basic reading, writing and speaking skills
 				</li>
+			</ul>
+
+			<h3>Contact</h3>
+
+			<p>You are absolutely not allowed to contact me for advertisment or similar reasons.</p>
+			<ul class="vcard">
+				<li><strong class="fn">Florian Eckerstorfer</strong></li>
+				<li class="adr">
+					<span class="street-address">Rotenm&uuml;hlgasse 10/4/1/2</span><br>
+					<span class="postal-code">1120</span> <span class="locality">Vienna</span><br>
+					<span class="country-name">Austria</span>
+				</li>
+				<li>Web: <a href="http://florianeckerstorfer.com" class="url">http://florianeckerstorfer.com</a></li>
+				<li>Email: <a href="mailto:florian@theroadtojoy.at" class="email">florian@theroadtojoy.at</a></li>
+				<li>Phone: <em>on request</em></li>
 			</ul>
 
 		</div>

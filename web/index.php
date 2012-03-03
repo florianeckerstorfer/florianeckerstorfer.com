@@ -20,6 +20,7 @@
 				<a href="http://fleckr.at/flickr">Flickr</a>,
 				<a href="http://fleckr.at/lastfm" id="lastfm">Last.fm</a>,
 				<a href="http://fleckr.at/miso" id="miso">Miso</a>, 
+				<a href="http://fleckr.at/quotefm" id="quotefm">Quote.fm</a>,
 				<a href="http://fleckr.at/github">Github</a> and 
 				<a href="http://fleckr.at/pinboard">Pinboard</a>.</small></p>
 			<p><small>You can also send me an <a href="mailto:florian@theroadtojoy.at">email</a>.</small></p>

@@ -577,6 +577,10 @@ body {
   font-size: 4em;
   line-height: 100%;
 }
+#header h1 a {
+  color: #333;
+  text-decoration: none;
+}
 #header h1 strong {
   color: #333;
   text-transform: uppercase;
@@ -594,4 +598,25 @@ body {
 }
 #share .social-button {
   text-align: right;
+}
+.vcard {
+  margin-left: 0;
+  list-style: none;
+}
+.vcard .adr {
+  margin-bottom: 0.5em;
+}
+.cv-list {
+  margin-left: 0;
+  padding-left: 0;
+  list-style: none;
+}
+.cv-list li {
+  margin-bottom: 1em;
+  padding: 0.5em;
+  background: #fff;
+}
+.cv-list li li {
+  margin-bottom: 0;
+  padding: 0;
 }

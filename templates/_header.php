@@ -18,13 +18,15 @@ header('Content-Type: text/html; charset=utf-8');
 
 	<link href="/css/master.css" rel="stylesheet">
 
+	<link rel="profile" href="http://microformats.org/profile/hcard">
+
 </head>
 <body>
 
 <div id="header" class="container">
 	<div class="row">
 		<header class="span8">
-			<h1>Hello, I'm<br><strong>Florian<br>Eckerstorfer</strong>.</h1>
+			<h1>Hello, I'm<br><a href="/" title="Homepage"><strong>Florian<br>Eckerstorfer</strong></a>.</h1>
 		</header>
 		<aside class="span4">
 			<img src="/img/florian-eckerstorfer.jpg" alt="Photo of Florian Eckerstorfer" width="300" height="300">
