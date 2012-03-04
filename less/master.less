@@ -1,6 +1,9 @@
 // Include Bootstrap
 @import "bootstrap/bootstrap.less";
 
+// Include Responsive Bootstrap
+@import "bootstrap/responsive.less";
+
 body {
 	background: url(/img/pinstripe.png);
 	font-size: 1em;
@@ -77,4 +80,43 @@ body {
 	}
 
 } // .cv-list
+
+// UP TO LANDSCAPE PHONE
+// ---------------------
+
+@media (max-width: 480px) {
+
+	#header {
+		h1 {
+			font-size: 2.5em;
+		}
+	}
+
+}
+
+// LANDSCAPE PHONE TO SMALL DESKTOP & PORTRAIT TABLET
+// --------------------------------------------------
+
+@media (max-width: 768px) {
+	#header {
+		h1 {
+			font-size: 3em;
+		}
+	}
+}
+
+// PORTRAIT TABLET TO DEFAULT DESKTOP
+// ----------------------------------
+
+@media (max-width: 980px) {
+
+	#header {
+		aside {
+			width: 100%;
+			margin-top: 0;
+			text-align: center;
+		}
+	}
+
+}
 

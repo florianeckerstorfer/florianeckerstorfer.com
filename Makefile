@@ -19,7 +19,7 @@ minify:
 	@@echo "Minifying the HTML..."
 	@@java -jar _build/htmlcompressor.jar -r --type html -o _site _site
 
-build: render less minify
+build: less render minify
 
 deploy: build
 	@@echo 'Deploying site.'
