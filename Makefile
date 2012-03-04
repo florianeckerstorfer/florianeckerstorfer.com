@@ -21,8 +21,10 @@ minify:
 
 build: less render minify
 
+dev-build: less render
+
 deploy: build
 	@@echo 'Deploying site.'
 	@@rsync -avq --delete-after _site/ han:/var/www/florianeckerstorfer.com
 
-.PHONY: server render build less minify deploy
+.PHONY: server render dev-build build less minify deploy
