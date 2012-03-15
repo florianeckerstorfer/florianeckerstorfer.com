@@ -1,1 +1,1 @@
-exclude: [oauth, x-old-ajax-scripts, florianeckerstorfer.com.sublime-project, florianeckerstorfer.com.sublime-workspace, README.md, less, Makefile]
+exclude: [cv-pdf, oauth, x-old-ajax-scripts, florianeckerstorfer.com.sublime-project, florianeckerstorfer.com.sublime-workspace, README.md, less, Makefile]

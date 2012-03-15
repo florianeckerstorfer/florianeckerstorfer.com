@@ -19,12 +19,16 @@ minify:
 	@@echo "Minifying the HTML..."
 	@@java -jar _build/htmlcompressor.jar -r --type html -o _site _site
 
-build: less render minify
+cv-pdf:
+	@@echo "Copying cv.pdf..."
+	@@cp ./cv-pdf/cv.pdf ./cv.pdf
 
-dev-build: less render
+build: less render minify cv-pdf
+
+dev-build: less render cv-pdf
 
 deploy: build
 	@@echo 'Deploying site.'
 	@@rsync -avq --delete-after _site/ han:/var/www/florianeckerstorfer.com
 
-.PHONY: server render dev-build build less minify deploy
+.PHONY: server render dev-build build less minify deploy cv-pdf

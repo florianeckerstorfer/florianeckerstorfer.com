@@ -2,3 +2,7 @@
 *.sublime-workspace
 _site/*
 css/*
+cv-pdf/*.aux
+cv-pdf/*.fdb_latexmk
+cv-pdf/*.log
+cv-pdf/*.synctex.gz
