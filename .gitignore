@@ -6,3 +6,5 @@ cv-pdf/*.aux
 cv-pdf/*.fdb_latexmk
 cv-pdf/*.log
 cv-pdf/*.synctex.gz
+cv-pdf/*.fls
+cv-pdf/*.out

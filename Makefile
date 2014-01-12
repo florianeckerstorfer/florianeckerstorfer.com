@@ -3,16 +3,16 @@ server:
 
 render:
 	@@echo "Building the site..."
-	@@jekyll --no-future
+	@@jekyll build
 
 render-watch:
 	@@echo "Building the site and watching for changes..."
-	@@jekyll --auto
+	@@jekyll build --watch
 
 less:
 	@@echo "Compiling LESS into CSS..."
 	@@lessc less/master.less > css/master.css
-  
+
 minify:
 	@@echo "Minifying the CSS..."
 	@@java -jar _build/yuicompressor.jar --verbose --type css -o _site/css/master.css _site/css/master.css
